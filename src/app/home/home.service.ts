@@ -11,13 +11,13 @@ export class Calculator {
 
 
   public additionner(a:number, b:number):any {
-    //TODO
-    return;
+    //TODO    
+    return a+b;
   }
 
   public multiplication(a:number, b:number):any {
     //TODO
-    return;
+    return a*b;
 
   }
 
