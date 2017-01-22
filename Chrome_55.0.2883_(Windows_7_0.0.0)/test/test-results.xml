@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 55.0.2883 (Windows 7 0.0.0)" package="models" timestamp="2017-01-22T16:52:59" id="0" hostname="Chaker-PC" tests="5" errors="0" failures="4" time="0.256">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36"/>
+  </properties>
+  <testcase name="Home should have default data" time="0.004" classname="Chrome_55_0_2883_(Windows_7_0_0_0).models.Home"/>
+  <testcase name="Home sum testing" time="0.109" classname="Chrome_55_0_2883_(Windows_7_0_0_0).models.Home">
+    <failure type="">Expected undefined to equal 7.
+    at webpack:///src/app/home/home.service.spec.ts:16:0 &lt;- config/spec-bundle.js:74998:46 [ProxyZone]
+    at TestBed.execute (webpack:///~/@angular/core/bundles/core-testing.umd.js:824:0 &lt;- config/spec-bundle.js:20364:23) [ProxyZone]
+    at Object.&lt;anonymous&gt; (webpack:///~/@angular/core/bundles/core-testing.umd.js:911:32 &lt;- config/spec-bundle.js:20451:49) [ProxyZone]
+    at ProxyZoneSpec.onInvoke (webpack:///~/zone.js/dist/proxy.js:79:0 &lt;- config/spec-bundle.js:57701:39) [ProxyZone]
+    at Zone.run (webpack:///~/zone.js/dist/zone.js:113:0 &lt;- config/spec-bundle.js:57918:43) [&lt;root&gt; =&gt; ProxyZone]
+    at Object.&lt;anonymous&gt; (webpack:///~/zone.js/dist/jasmine-patch.js:102:0 &lt;- config/spec-bundle.js:57416:34) [&lt;root&gt;]
+    at ZoneQueueRunner.jasmine.QueueRunner.ZoneQueueRunner.execute (webpack:///~/zone.js/dist/jasmine-patch.js:132:0 &lt;- config/spec-bundle.js:57446:42) [&lt;root&gt;]
+    at ZoneQueueRunner.jasmine.QueueRunner.ZoneQueueRunner.execute (webpack:///~/zone.js/dist/jasmine-patch.js:132:0 &lt;- config/spec-bundle.js:57446:42) [&lt;root&gt;]
+    at Zone.runTask (webpack:///~/zone.js/dist/zone.js:151:0 &lt;- config/spec-bundle.js:57956:47) [&lt;root&gt; =&gt; &lt;root&gt;]
+    at drainMicroTaskQueue (webpack:///~/zone.js/dist/zone.js:433:0 &lt;- config/spec-bundle.js:58238:35) [&lt;root&gt;]
+</failure>
+  </testcase>
+  <testcase name="Home mul testing" time="0.071" classname="Chrome_55_0_2883_(Windows_7_0_0_0).models.Home">
+    <failure type="">Expected undefined to equal 12.
+    at webpack:///src/app/home/home.service.spec.ts:21:0 &lt;- config/spec-bundle.js:75003:49 [ProxyZone]
+    at TestBed.execute (webpack:///~/@angular/core/bundles/core-testing.umd.js:824:0 &lt;- config/spec-bundle.js:20364:23) [ProxyZone]
+    at Object.&lt;anonymous&gt; (webpack:///~/@angular/core/bundles/core-testing.umd.js:911:32 &lt;- config/spec-bundle.js:20451:49) [ProxyZone]
+    at ProxyZoneSpec.onInvoke (webpack:///~/zone.js/dist/proxy.js:79:0 &lt;- config/spec-bundle.js:57701:39) [ProxyZone]
+    at Zone.run (webpack:///~/zone.js/dist/zone.js:113:0 &lt;- config/spec-bundle.js:57918:43) [&lt;root&gt; =&gt; ProxyZone]
+    at Object.&lt;anonymous&gt; (webpack:///~/zone.js/dist/jasmine-patch.js:102:0 &lt;- config/spec-bundle.js:57416:34) [&lt;root&gt;]
+    at ZoneQueueRunner.jasmine.QueueRunner.ZoneQueueRunner.execute (webpack:///~/zone.js/dist/jasmine-patch.js:132:0 &lt;- config/spec-bundle.js:57446:42) [&lt;root&gt;]
+    at Zone.runTask (webpack:///~/zone.js/dist/zone.js:151:0 &lt;- config/spec-bundle.js:57956:47) [&lt;root&gt; =&gt; &lt;root&gt;]
+    at drainMicroTaskQueue (webpack:///~/zone.js/dist/zone.js:433:0 &lt;- config/spec-bundle.js:58238:35) [&lt;root&gt;]
+</failure>
+  </testcase>
+  <testcase name="Home div testing" time="0.044" classname="Chrome_55_0_2883_(Windows_7_0_0_0).models.Home">
+    <failure type="">Expected undefined to equal 8.
+    at webpack:///src/app/home/home.service.spec.ts:26:0 &lt;- config/spec-bundle.js:75008:43 [ProxyZone]
+    at TestBed.execute (webpack:///~/@angular/core/bundles/core-testing.umd.js:824:0 &lt;- config/spec-bundle.js:20364:23) [ProxyZone]
+    at Object.&lt;anonymous&gt; (webpack:///~/@angular/core/bundles/core-testing.umd.js:911:32 &lt;- config/spec-bundle.js:20451:49) [ProxyZone]
+    at ProxyZoneSpec.onInvoke (webpack:///~/zone.js/dist/proxy.js:79:0 &lt;- config/spec-bundle.js:57701:39) [ProxyZone]
+    at Zone.run (webpack:///~/zone.js/dist/zone.js:113:0 &lt;- config/spec-bundle.js:57918:43) [&lt;root&gt; =&gt; ProxyZone]
+    at Object.&lt;anonymous&gt; (webpack:///~/zone.js/dist/jasmine-patch.js:102:0 &lt;- config/spec-bundle.js:57416:34) [&lt;root&gt;]
+    at ZoneQueueRunner.jasmine.QueueRunner.ZoneQueueRunner.execute (webpack:///~/zone.js/dist/jasmine-patch.js:132:0 &lt;- config/spec-bundle.js:57446:42) [&lt;root&gt;]
+    at Zone.runTask (webpack:///~/zone.js/dist/zone.js:151:0 &lt;- config/spec-bundle.js:57956:47) [&lt;root&gt; =&gt; &lt;root&gt;]
+    at drainMicroTaskQueue (webpack:///~/zone.js/dist/zone.js:433:0 &lt;- config/spec-bundle.js:58238:35) [&lt;root&gt;]
+</failure>
+  </testcase>
+  <testcase name="Home minus testing" time="0.028" classname="Chrome_55_0_2883_(Windows_7_0_0_0).models.Home">
+    <failure type="">Expected undefined to equal 12.
+    at webpack:///src/app/home/home.service.spec.ts:31:0 &lt;- config/spec-bundle.js:75013:40 [ProxyZone]
+    at TestBed.execute (webpack:///~/@angular/core/bundles/core-testing.umd.js:824:0 &lt;- config/spec-bundle.js:20364:23) [ProxyZone]
+    at Object.&lt;anonymous&gt; (webpack:///~/@angular/core/bundles/core-testing.umd.js:911:32 &lt;- config/spec-bundle.js:20451:49) [ProxyZone]
+    at ProxyZoneSpec.onInvoke (webpack:///~/zone.js/dist/proxy.js:79:0 &lt;- config/spec-bundle.js:57701:39) [ProxyZone]
+    at Zone.run (webpack:///~/zone.js/dist/zone.js:113:0 &lt;- config/spec-bundle.js:57918:43) [&lt;root&gt; =&gt; ProxyZone]
+    at Object.&lt;anonymous&gt; (webpack:///~/zone.js/dist/jasmine-patch.js:102:0 &lt;- config/spec-bundle.js:57416:34) [&lt;root&gt;]
+    at ZoneQueueRunner.jasmine.QueueRunner.ZoneQueueRunner.execute (webpack:///~/zone.js/dist/jasmine-patch.js:132:0 &lt;- config/spec-bundle.js:57446:42) [&lt;root&gt;]
+    at Zone.runTask (webpack:///~/zone.js/dist/zone.js:151:0 &lt;- config/spec-bundle.js:57956:47) [&lt;root&gt; =&gt; &lt;root&gt;]
+    at drainMicroTaskQueue (webpack:///~/zone.js/dist/zone.js:433:0 &lt;- config/spec-bundle.js:58238:35) [&lt;root&gt;]
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

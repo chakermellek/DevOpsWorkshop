@@ -67,7 +67,7 @@ module.exports = function (config) {
       noInfo: true,
       // and use stats to turn off verbose output
       stats: {
-        // options i.e. 
+        // options i.e.
         chunks: false
       }
     },
@@ -78,7 +78,12 @@ module.exports = function (config) {
      * possible values: 'dots', 'progress'
      * available reporters: https://npmjs.org/browse/keyword/karma-reporter
      */
-    reporters: ['mocha', 'coverage', 'remap-coverage'],
+    reporters: ['mocha', 'coverage', 'remap-coverage', 'junit'],
+
+    junitReporter: {
+      outputFile: './test/test-results.xml',
+      suite: 'models'
+    },
 
     // web server port
     port: 9876,
